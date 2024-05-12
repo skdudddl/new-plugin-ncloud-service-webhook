@@ -31,9 +31,9 @@ setup(
     license='Apache License 2.0',
     packages=find_packages(),
     install_requires=[
-        'spaceone-core',
-        'spaceone-api',
-        'spaceone-monitoring'
+        'spaceone-core==2.0.80',
+        'spaceone-api==2.0.175',
+        'spaceone-monitoring==2.0.dev49'
     ],
     zip_safe=False,
 )
